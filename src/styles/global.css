@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.neonEffect {
+    filter: url('#neonGlow');
+  }
+  
+  @keyframes neonGlowAnimation {
+    from {
+      filter: brightness(1);
+    }
+    to {
+      filter: brightness(1.5);
+    }
+  }
